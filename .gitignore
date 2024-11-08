@@ -27,3 +27,6 @@ build/
 
 # macOS
 *.DS_Store
+
+# Docker sh commands
+.ash_history

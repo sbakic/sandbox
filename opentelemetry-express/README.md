@@ -18,4 +18,6 @@ Stop the project with `docker stop app && docker remove app`
 
 ## Testing Project
 
-Test the project with `curl http://localhost:8080/rolldice` and check logs
+Test the project with `curl http://localhost:8080/rolldice`
+
+Check the logs with `docker logs app --follow`
