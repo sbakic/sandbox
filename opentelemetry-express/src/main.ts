@@ -1,6 +1,6 @@
 import express, { Express } from 'express';
 
-const PORT: number = parseInt(process.env.PORT || '8080');
+const PORT: number = 8080;
 const app: Express = express();
 
 function getRandomNumber(min: number, max: number) {
