@@ -2,7 +2,7 @@
   "name": "opentelemetry-express",
   "scripts": {
     "build": "rimraf ./build && tsc",
-    "start:watch": "nodemon -L"
+    "start": "nodemon -L"
   },
   "dependencies": {
     "@opentelemetry/api": "1.9.0",
