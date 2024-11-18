@@ -10,9 +10,9 @@
         "@nestjs/microservices": "8.4.7",
         "@opentelemetry/api": "1.9.0",
         "@opentelemetry/auto-instrumentations-node": "0.52.1",
-        "@opentelemetry/sdk-metrics": "1.27.0",
-        "@opentelemetry/sdk-node": "0.54.2",
-        "@opentelemetry/sdk-trace-node": "1.27.0",
+        "@opentelemetry/sdk-metrics": "1.28.0",
+        "@opentelemetry/sdk-node": "0.55.0",
+        "@opentelemetry/sdk-trace-node": "1.28.0",
         "rimraf": "3.0.2"
     },
     "devDependencies": {
