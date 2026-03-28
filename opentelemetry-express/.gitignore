@@ -1,0 +1,32 @@
+# Ignore node_modules directory
+node_modules/
+.npm/
+
+# Ignore log files
+*.log
+
+# Ignore environment variables
+.env
+
+# Ignore build directory
+dist/
+build/
+
+# Ignore temporary files
+*.tmp
+
+# JetBrains directories
+.idea/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# macOS
+*.DS_Store
+
+# Docker sh commands
+.ash_history
