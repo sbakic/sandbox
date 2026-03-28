@@ -1,6 +1,6 @@
 @ECHO OFF
 
-SET COMPOSE_FILE_PATH=%CD%\docker-compose.yml
+SET COMPOSE_FILE_PATH=%CD%\docker compose.yml
 
 SET LOG_FILE_PATH=%CD%\application.log
 
@@ -36,11 +36,11 @@ echo "Usage: %0 {build_start|start|stop|tail}"
 EXIT /B %ERRORLEVEL%
 
 :start
-    docker-compose -f "%COMPOSE_FILE_PATH%" up --build -d
+    docker compose -f "%COMPOSE_FILE_PATH%" up --build -d
 EXIT /B 0
 :down
     if exist "%COMPOSE_FILE_PATH%" (
-        docker-compose -f "%COMPOSE_FILE_PATH%" down
+        docker compose -f "%COMPOSE_FILE_PATH%" down
     )
 EXIT /B 0
 :build
@@ -48,5 +48,5 @@ EXIT /B 0
     call %GRADLE_EXEC% build
 EXIT /B 0
 :tail
-    docker-compose -f "%COMPOSE_FILE_PATH%" logs -f
+    docker compose -f "%COMPOSE_FILE_PATH%" logs -f
 EXIT /B 0
